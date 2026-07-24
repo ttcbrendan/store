@@ -13,5 +13,6 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   # Products routes
+  root "products#index"
   resources :products
 end
